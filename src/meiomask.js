@@ -566,9 +566,7 @@
                 o.data.replacing,
                 o.data.replacements);
 
-                if (!o.repeat) {
-                    o.$this.val($thisVal);
-                }
+                o.$this.val($thisVal);
 
                 if (wasReplaced || selectionWasCollapsed) {
                     this.__setRange(o._this, o.range.start + 1, o.range.start + 1);
